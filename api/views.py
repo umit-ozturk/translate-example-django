@@ -5,7 +5,6 @@ from product.models import Product
 from product.serializers import ProductSerializer
 from django.utils import translation
 from django.utils.translation import ugettext_lazy as _
-import gettext
 
 
 @api_view(['GET'])
